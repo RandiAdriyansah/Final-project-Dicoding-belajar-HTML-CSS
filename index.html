@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsif.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="/assets/img/logotorabika.png" alt="torabika" />
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#home"></a>Home</li>
+            <li><a href="#menu"></a>Menu</li>
+            <li><a href="#contact"></a>Contact</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <article class="hero" id="home">
+        <div class="left">
+          <h2>What is <span>Torabika?</span></h2>
+          <p>
+            Cappuccino, a blend of instant coffee, sugar and creamer. Sprinkle
+            Choco Granule above the cappuccino cream that adds a special flavor
+            to you with Torabika cappuccino. An exclusive instant coffee
+            combined with special foamy creamer and real chocolate topping will
+            give you an extraordinary flavor.
+          </p>
+        </div>
+        <div id="right">
+          <img class="img" src="/assets/img/torabika.png" alt="torabika" />
+        </div>
+      </article>
+
+      <article class="menu" id="menu">
+        <div class="menu-head">
+          <h2>Best menu for <span>the best person</span></h2>
+          <p>We serve various kinds of Torabika coffee at affordable prices</p>
+        </div>
+        <div class="row">
+          <div class="menu-card">
+            <img src="/assets/img/1.png" alt="torabika cappuccino" />
+            <h3 class="menu-card-title">- Torabika Cappuccino -</h3>
+            <p class="menu-card-price">IDR 7K</p>
+          </div>
+          <div class="menu-card">
+            <img src="/assets/img/2.png" alt="torabika creamy latte" />
+            <h3 class="menu-card-title">- Torabika Creamy Latte -</h3>
+            <p class="menu-card-price">IDR 8.5K</p>
+          </div>
+          <div class="menu-card">
+            <img src="/assets/img/3.png" alt="torabika jahe susu" />
+            <h3 class="menu-card-title">- Torabika jahe Susu -</h3>
+            <p class="menu-card-price">IDR 8K</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Contact -->
+      <article class="contact" id="contact">
+        <h2 class="contact-h2">Contact <span>Me</span></h2>
+        <div class="rows">
+          <form action="">
+            <div class="input-group">
+              <i data-feather="user"></i>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-group">
+              <i data-feather="mail"></i>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="input-group">
+              <i data-feather="send"></i>
+              <textarea
+                cols="28"
+                rows="6"
+                placeholder="Message"
+                class="input-group"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+          <aside class="aside">
+            <img
+              src="/assets/img/profil.jpeg"
+              alt="profil"
+              class="profile-img"
+            />
+            <h2 class="aside">Randi Adriyansah</h2>
+            <p>randiadriyansah2006@gmail.com</p>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>created by <a href="#">Randiadriyansah</a>. | &copy; 2023</p>
+      </div>
+    </footer>
+
+    <!-- Feather icon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
